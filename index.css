@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    position: relative;
+}
+
+h1{
+    display: flex;
+    color: #3E1992;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px; /* Ajuste conforme necessário */
+    max-height: 600px; /* Ajuste conforme necessário */
+    width: 100%;
+    height: auto;
+    background-color: #fff; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombreamento */
+    box-sizing: border-box; /* Inclui padding e border no cálculo das dimensões */
+}
+.container_inputs{
+    max-width: 600px; /*lagura */
+    max-height: 600px; /*Altura */
+}
+
+.container_h1{
+    max-width: 600px; /*lagura */
+    max-height: 400px; /*Altura */
+}
+
+.register_button, .message{
+    padding: 10px; /* Espaçamento interno */
+    text-align: center;
+}
